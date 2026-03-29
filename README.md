@@ -1,4 +1,5 @@
 📊 Stock Return Prediction Project
+
 📌 Overview
 
 This project predicts stock price movement using machine learning and evaluates whether the model can generate real trading profits.
@@ -11,6 +12,7 @@ Compare strategy performance with the market
 Source: Yahoo Finance
 Stock: AAPL (Apple)
 Period: From 2020
+
 ⚙️ Methodology
 1. Data Processing
 Calculated daily returns
@@ -21,26 +23,33 @@ Random Forest (for improvement)
 3. Strategy
 Invest only when model predicts upward movement
 Compared strategy return with buy-and-hold
+
 📈 Results
 Accuracy: ~0.50 (close to random)
 Strategy performance: lower than market
+
 💡 Insights
 Stock price prediction is very difficult
 Accuracy does not guarantee profit
 Strategy design is as important as prediction
+
 🛠 Tech Stack
 Python
 pandas
 scikit-learn
 matplotlib
 yfinance
+
 📁 Project Structure
 notebooks/ → analysis code
 data/ → data files
 src/ → additional code
+
 🚀 Future Work
 Add technical indicators (RSI, MACD)
 Try deep learning models (LSTM)
 Improve trading strategy
 
 This project demonstrates fundamental concepts of financial engineering and machine learning.
+
+단순 예측 모델이 실제 투자 수익으로 이어지지 않는다는 점을 확인하였다
